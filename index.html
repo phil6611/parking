@@ -42,6 +42,7 @@
 
 		function onLocationError(e) {
 			alert(e.message);
+                        map.stopLocate();
 		}
 
 		map.on('locationfound', onLocationFound);
